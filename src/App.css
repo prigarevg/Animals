@@ -1,0 +1,94 @@
+.animals {
+  max-width: 1000px;
+  margin: 20px auto 0 auto;
+}
+
+.animals__controls {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  background: rgb(243, 243, 243);
+}
+
+.animals__controls__search {
+  padding: 10px 15px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.animals__controls__rarity {
+  display: flex;
+  align-items: center;
+}
+
+.animals__controls__rarity input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-color: lightgray;
+}
+
+.animals__list {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.animals__list__head {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background: rgb(243, 243, 243);
+  border-radius: 10px 10px 0 0;
+}
+
+.animals__list__head p {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.animals__group h3 {
+  text-align: center;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+  margin: 0;
+}
+
+/* animal */
+
+.animal {
+  display: flex;
+  text-align: center;
+  border-top: 1px solid lightgrey;
+}
+
+.animal p {
+  margin: 0;
+  padding: 15px;
+}
+
+.animal__name {
+  width: 50%;
+  border-right: 1px solid lightgrey;
+}
+
+.animal__name.rare {
+  color: red;
+}
+
+.animal__continent {
+  width: 50%;
+}
+
+.animals__not-found {
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+}
